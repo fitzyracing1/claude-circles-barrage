@@ -1,0 +1,39 @@
+# Claude circles archive
+
+> A Claude conversation archive on the circles thread.
+
+## Purpose
+Explain this repo as a saved conversation shelf named circles. Source: fitzyracing1/claude-circles.
+
+## How it works (plain English)
+1. Keep the chat history in this repo.
+2. Use it to recall that thread.
+3. Do not treat the archive as the only product file.
+
+## Key ideas
+- Conversation archive
+- Circles thread
+- Family of claude-* repos
+
+## The actual code
+```
+# source: fitzyracing1/claude-circles
+archive = conversation_shelf("circles")
+read(archive)
+```
+
+## Line-by-line translation
+1. conversation_shelf("circles") → “this folder holds that thread”
+2. read(archive) → “open the saved talk”
+
+## Decisions the program makes
+- If a reader wants the chat → stay here
+
+## What a person would notice
+A boxed conversation under the circles name.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the archive.
